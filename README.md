@@ -54,7 +54,7 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
      
    ### Before Handling Incosistenr Data
    ![image](https://github.com/user-attachments/assets/460cd3f7-08de-461b-9ae8-a733b3e461c0)
-   ### Aftera Handling Incosistenr Data
+   ### After Handling Incosistenr Data
    ![image](https://github.com/user-attachments/assets/e687349d-3f22-4012-bbc7-73f9f6ab9dc1)
 
    
