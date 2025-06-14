@@ -40,10 +40,14 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
    - Checked missing data with `.isna().sum()`.  
    - Dropped rows containing missing values to ensure clean analysis.  
    - Verified no missing values remained after cleaning.
+ 
+
 
 3. **Handling Inconsistent Data**  
    - Inspected unique values in key categorical columns (`Gender`, `Education Level`).  
    - Standardized inconsistent labels in `Education Level` (e.g., `"Bachelor's Degree"` → `"Bachelor's"`) for consistency.
+     ![image](https://github.com/user-attachments/assets/7e797309-8d1e-4160-aa0b-e4f7cac5e754)
+
 
 4. **Handling Outliers**  
    - Visualized distributions and outliers with boxplots for numeric columns (`Age`, `Years of Experience`, `Salary`).  
