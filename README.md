@@ -40,19 +40,25 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
    - Checked missing data with `.isna().sum()`.  
    - Dropped rows containing missing values to ensure clean analysis.  
    - Verified no missing values remained after cleaning.
- 
+     Before: ![WhatsApp Image 2025-06-14 at 23 22 52_0959ad25](https://github.com/user-attachments/assets/829ef45f-b232-4412-83d5-1d51b345627b)
+     After : ![WhatsApp Image 2025-06-14 at 23 23 10_2929c30c](https://github.com/user-attachments/assets/630e4e44-2155-48b6-9e61-1776cb926509)
+
 
 
 3. **Handling Inconsistent Data**  
    - Inspected unique values in key categorical columns (`Gender`, `Education Level`).  
    - Standardized inconsistent labels in `Education Level` (e.g., `"Bachelor's Degree"` → `"Bachelor's"`) for consistency.
-     ![image](https://github.com/user-attachments/assets/7e797309-8d1e-4160-aa0b-e4f7cac5e754)
-
+     Before : ![WhatsApp Image 2025-06-14 at 23 24 42_f2488dda](https://github.com/user-attachments/assets/997326df-89a8-4662-8a1c-9ed7602d45ff)
+     After : ![WhatsApp Image 2025-06-14 at 23 28 05_790ba5f2](https://github.com/user-attachments/assets/fbef79e8-687a-4ed8-ba93-377adeb0fb48)
 
 4. **Handling Outliers**  
    - Visualized distributions and outliers with boxplots for numeric columns (`Age`, `Years of Experience`, `Salary`).  
    - Applied the "cap" method (clipping values at calculated upper and lower bounds based on IQR) to handle outliers in `Age` and `Years of Experience`.  
    - Rechecked boxplots post-processing to confirm successful outlier mitigation.
+     Before :![WhatsApp Image 2025-06-14 at 23 23 42_c15602d6](https://github.com/user-attachments/assets/3ac412c9-5a43-4ca8-bb48-ef658abb1ea9)
+     After : ![WhatsApp Image 2025-06-14 at 23 23 59_8e8993d1](https://github.com/user-attachments/assets/5bf43381-59bf-43dc-b031-b507d127fe81)
+
+
 ---
 ## Exploratory Data Analysis (EDA)
 
