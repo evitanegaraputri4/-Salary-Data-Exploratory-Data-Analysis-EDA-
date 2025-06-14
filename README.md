@@ -1,7 +1,7 @@
 # Salary Data Exploratory Data Analysis (EDA)
 
 ## Project Overview
-This project involves conducting an exploratory data analysis (EDA) on a salary dataset containing information about employee demographics, job titles, experience, and salaries. The goal is to clean the data, analyze key relationships, and visualize insights that can help understand the factors affecting salary distributions.
+This project presents an exploratory data analysis (EDA) of a salary dataset to uncover key insights about workforce demographics, salary distributions, and factors affecting employee compensation. The dataset includes attributes such as Age, Gender, Education Level, Job Title, Years of Experience, and Salary. The main objective is to clean, analyze, and visualize the dataset to answer important business questions and highlight relationships between variables that influence salaries.
 
 ---
 
