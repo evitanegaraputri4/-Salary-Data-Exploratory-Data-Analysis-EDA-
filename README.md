@@ -40,8 +40,10 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
    - Checked missing data with `.isna().sum()`.  
    - Dropped rows containing missing values to ensure clean analysis.  
    - Verified no missing values remained after cleaning.
-### Before
-(https://github.com/user-attachments/assets/9d440dc1-8de6-476f-91ce-04cc9b3334a9)
+### Missing Values Before Cleaning
+![image](https://github.com/user-attachments/assets/eda85991-549d-4272-8ae7-8b9df6bc70fe)
+### Missing Values After Cleaning
+![image](https://github.com/user-attachments/assets/cf28f188-81b5-49fd-87ec-32da7ce45cf5)
 
 
 
@@ -49,19 +51,22 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
 3. **Handling Inconsistent Data**  
    - Inspected unique values in key categorical columns (`Gender`, `Education Level`).  
    - Standardized inconsistent labels in `Education Level` (e.g., `"Bachelor's Degree"` → `"Bachelor's"`) for consistency.
-     Before :
-      ![![image](https://github.com/user-attachments/assets/3e3b4c39-7581-4972-82e6-fbfbc86a92b9)
-     After :
-      ![WhatsApp Image 2025-06-14 at 23 28 05_790ba5f2](https://github.com/user-attachments/assets/fbef79e8-687a-4ed8-ba93-377adeb0fb48)
+     
+   ### Before Handling Incosistenr Data
+   ![image](https://github.com/user-attachments/assets/460cd3f7-08de-461b-9ae8-a733b3e461c0)
+   ### Aftera Handling Incosistenr Data
+   ![image](https://github.com/user-attachments/assets/e687349d-3f22-4012-bbc7-73f9f6ab9dc1)
 
-4. **Handling Outliers**  
+   
+
+5. **Handling Outliers**  
    - Visualized distributions and outliers with boxplots for numeric columns (`Age`, `Years of Experience`, `Salary`).  
    - Applied the "cap" method (clipping values at calculated upper and lower bounds based on IQR) to handle outliers in `Age` and `Years of Experience`.  
    - Rechecked boxplots post-processing to confirm successful outlier mitigation.
-     Before:
-     ![WhatsApp Image 2025-06-14 at 23 23 42_c15602d6](https://github.com/user-attachments/assets/3ac412c9-5a43-4ca8-bb48-ef658abb1ea9)
-     After :
-     ![WhatsApp Image 2025-06-14 at 23 23 59_8e8993d1](https://github.com/user-attachments/assets/5bf43381-59bf-43dc-b031-b507d127fe81)
+   ### Before Handling Outliers:
+   ![WhatsApp Image 2025-06-14 at 23 23 42_c15602d6](https://github.com/user-attachments/assets/3ac412c9-5a43-4ca8-bb48-ef658abb1ea9)
+   ### After Handling Outliers:
+    ![WhatsApp Image 2025-06-14 at 23 23 59_8e8993d1](https://github.com/user-attachments/assets/5bf43381-59bf-43dc-b031-b507d127fe81)
 
 
 ---
