@@ -5,21 +5,33 @@ This project involves conducting an exploratory data analysis (EDA) on a salary 
 
 ---
 
-## Tools Used
+## Tools and Libraries
 - Python
 - Pandas
 - Matplotlib
 - Seaborn
-- Statsmodels (for multicollinearity check)
-
+- Statsmodels
 ---
+## Step-by-Step Process
 
-## Data Cleaning & Preparation
-- Loaded and inspected the dataset for structure, data types, and missing values.
-- Removed rows containing missing values to maintain data quality.
-- Standardized inconsistent data entries, such as variations in the "Education Level" field.
-- Identified and handled outliers in `Age` and `Years of Experience` using the capping method.
+1. **Data Loading and Initial Inspection**  
+   - Loaded data using `pandas.read_csv()`.  
+   - Explored dataset shape and data types with `.info()` and `.shape`.  
+   - Used `.describe()` to summarize numeric and categorical columns.
 
+2. **Handling Missing Values**  
+   - Checked missing data with `.isna().sum()`.  
+   - Dropped rows containing missing values to ensure clean analysis.  
+   - Verified no missing values remained after cleaning.
+
+3. **Handling Inconsistent Data**  
+   - Inspected unique values in key categorical columns (`Gender`, `Education Level`).  
+   - Standardized inconsistent labels in `Education Level` (e.g., `"Bachelor's Degree"` → `"Bachelor's"`) for consistency.
+
+4. **Handling Outliers**  
+   - Visualized distributions and outliers with boxplots for numeric columns (`Age`, `Years of Experience`, `Salary`).  
+   - Applied the "cap" method (clipping values at calculated upper and lower bounds based on IQR) to handle outliers in `Age` and `Years of Experience`.  
+   - Rechecked boxplots post-processing to confirm successful outlier mitigation.
 ---
 ## Exploratory Data Analysis (EDA)
 
