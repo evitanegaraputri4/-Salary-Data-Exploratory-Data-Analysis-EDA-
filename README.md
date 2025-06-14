@@ -53,7 +53,7 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
    - Standardized inconsistent labels in `Education Level` (e.g., `"Bachelor's Degree"` → `"Bachelor's"`) for consistency.
      
    ### Before Handling Incosistenr Data
-   ![image](https://github.com/user-attachments/assets/0a0998a8-3024-4da2-9435-10fd0d4ad227)
+   ![image](https://github.com/user-attachments/assets/e167fff4-6d2f-499e-a7b6-fee1a6ccf6aa
    ### After Handling Incosistenr Data
    ![image](https://github.com/user-attachments/assets/e687349d-3f22-4012-bbc7-73f9f6ab9dc1)
 
