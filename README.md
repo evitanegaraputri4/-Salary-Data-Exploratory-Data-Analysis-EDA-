@@ -37,31 +37,46 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
 
 ### 1.  What is the distribution of salaries in the dataset?
 - Visualized distributions of `Age`, `Years of Experience`, and `Salary` using histograms with kernel density estimates (KDE).  
-- **Insight:** Majority of employees are between 25 and 40 years old. Experience is skewed towards fewer years, and salaries mostly range between $50,000 and $150,000 with a wide spread.
+- **Insight:** Majority of employees are between 25 and 40 years old. Experience is skewed towards fewer years, and salaries mostly range between $50,000 and $150,000 with a wide spread. This distribution shows a relatively young workforce with varying experience levels and salaries.
+  ![image](https://github.com/user-attachments/assets/50327999-6ed0-4ce4-bdb1-e24059715347)
+
 
 ### 2.  How does Salary vary by Gender?
 - Boxplots show how salary varies by gender categories (`Male`, `Female`, `Other`).  
 - **Insight:** Male employees tend to have a wider salary range and higher median salaries. The "Other" category shows a high median salary but contains fewer records.
+  ![image](https://github.com/user-attachments/assets/883d7319-fe8d-47d4-b549-49a4241d67b0)
+
 
 ### 3. How does Education Level impact Salary?
 - Compared salary distributions across education levels using boxplots.  
-- **Insight:** Higher education levels such as Master's and PhD are associated with higher salaries, while High School level employees generally earn less.
+- **Insight:** HPhD holders have the highest median salaries but also show some outliers with lower salaries.In addition, Master's degree holders earn more on average than Bachelor's degree holders. Those with High School education tend to earn the least, with many salaries clustered at the lower end.
+  ![image](https://github.com/user-attachments/assets/03140480-95a8-48a8-913b-9c2c5379da73)
+
 
 ### 4. What is the relationship between Years of Experience and Salary?
 - Scatterplots and regression plots show the correlation between years of experience and salary, segmented by gender.  
-- **Insight:** Salary increases with years of experience, and male employees generally earn more than female or other genders with similar experience levels.
+- **Insight:** Salary increases with years of experience, and male employees generally earn more than female or other genders with similar experience levels. The scatter plot shows salary growth tends to flatten after about 15-20 years of experience.In, addition linear regression confirms the overall positive linear trend between experience and salary.
+  ![image](https://github.com/user-attachments/assets/5447371f-47d9-4629-985a-1e0b10ef2b2e)
+  ![image](https://github.com/user-attachments/assets/b5ffe1fd-2ab7-49cc-8da8-c07e56a7e4e0)
+
 
 ### 5. Which Job Titles have the highest average salaries?
 - Aggregated average salaries by job titles and displayed the top 10 highest paying roles using a bar chart.  
-- **Insight:** Executive roles like CEO, Chief Technology Officer, and Directors are the highest paying positions.
+- **Insight:** Highest average salaries are for executive and senior leadership roles:CEO and Chief Technology Officer top the list with salaries around $250,000.Other high-paying titles include Chief Data Officer, Directors, VPs of Finance and Operations.These roles show the expected hierarchy where senior leadership commands the highest pay.
+  ![image](https://github.com/user-attachments/assets/362b4b7a-4a7a-4118-a476-a3e67ea3a7a4)
+
 
 ### 6. What is the distribution of Age and how does it correlate with Salary?
 - Scatterplots visualize salary in relation to age and gender.  
-- **Insight:** Salary tends to increase with age, likely due to accumulated experience. Gender salary gaps are also noticeable.
+- **Insight:** Salary tends to increase with age, with a similar gender pattern seen before: Male employees generally earn more across age groups.Females and others earn less on average but follow the upward trend with age.A wide spread in salary exists at almost every age, suggesting other factors also influence salary beyond age.
+  ![image](https://github.com/user-attachments/assets/e6821e33-7307-42f2-9854-4fbe9390866f)
+
 
 ### 7.  Is there multicollinearity between Age and Years of Experience?
 - Calculated Variance Inflation Factor (VIF) for `Age` and `Years of Experience` to assess multicollinearity.  
-- **Insight:** Both variables exhibit moderate multicollinearity (VIF ~5.7), expected since age and experience are related.
+- **Insight:** Variance Inflation Factor (VIF) values are both ~5.7, which indicates moderate multicollinearity. This means Age and Years of Experience are correlated variables, which is expected since more age usually means more experience.
+  ![image](https://github.com/user-attachments/assets/19820e43-01bd-4e68-8989-76534987fdd8)
+
 
 ---
 
