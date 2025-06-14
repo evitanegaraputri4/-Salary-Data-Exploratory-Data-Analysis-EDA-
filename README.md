@@ -78,8 +78,3 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
   ![image](https://github.com/user-attachments/assets/19820e43-01bd-4e68-8989-76534987fdd8)
 
 
----
-
-## Contact
-For questions or feedback, please reach out at [your email or LinkedIn].
-
