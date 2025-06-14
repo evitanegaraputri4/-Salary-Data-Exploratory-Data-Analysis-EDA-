@@ -66,26 +66,26 @@ This project presents an exploratory data analysis (EDA) of a salary dataset to 
 
 ### 3. How does Education Level impact Salary?
 - Compared salary distributions across education levels using boxplots.  
-- **Insight:** HPhD holders have the highest median salaries but also show some outliers with lower salaries.In addition, Master's degree holders earn more on average than Bachelor's degree holders. Those with High School education tend to earn the least, with many salaries clustered at the lower end.
+- **Insight:** PhD holders have the highest median salaries but also show some outliers with lower salaries. In addition, Master's degree holders earn more on average than Bachelor's degree holders. Those with High School education tend to earn the least, with many salaries clustered at the lower end.
   ![image](https://github.com/user-attachments/assets/03140480-95a8-48a8-913b-9c2c5379da73)
 
 
 ### 4. What is the relationship between Years of Experience and Salary?
 - Scatterplots and regression plots show the correlation between years of experience and salary, segmented by gender.  
-- **Insight:** Salary increases with years of experience, and male employees generally earn more than female or other genders with similar experience levels. The scatter plot shows salary growth tends to flatten after about 15-20 years of experience.In, addition linear regression confirms the overall positive linear trend between experience and salary.
+- **Insight:** Salary increases with years of experience, and male employees generally earn more than female or other genders with similar experience levels. The scatter plot shows salary growth tends to flatten after about 15-20 years of experience. In, addition linear regression confirms the overall positive linear trend between experience and salary.
   ![image](https://github.com/user-attachments/assets/5447371f-47d9-4629-985a-1e0b10ef2b2e)
   ![image](https://github.com/user-attachments/assets/b5ffe1fd-2ab7-49cc-8da8-c07e56a7e4e0)
 
 
 ### 5. Which Job Titles have the highest average salaries?
 - Aggregated average salaries by job titles and displayed the top 10 highest paying roles using a bar chart.  
-- **Insight:** Highest average salaries are for executive and senior leadership roles:CEO and Chief Technology Officer top the list with salaries around $250,000.Other high-paying titles include Chief Data Officer, Directors, VPs of Finance and Operations.These roles show the expected hierarchy where senior leadership commands the highest pay.
+- **Insight:** Highest average salaries are for executive and senior leadership roles:CEO and Chief Technology Officer top the list with salaries around $250,000. Other high-paying titles include Chief Data Officer, Directors, VPs of Finance and Operations.These roles show the expected hierarchy where senior leadership commands the highest pay.
   ![image](https://github.com/user-attachments/assets/362b4b7a-4a7a-4118-a476-a3e67ea3a7a4)
 
 
 ### 6. What is the distribution of Age and how does it correlate with Salary?
 - Scatterplots visualize salary in relation to age and gender.  
-- **Insight:** Salary tends to increase with age, with a similar gender pattern seen before: Male employees generally earn more across age groups.Females and others earn less on average but follow the upward trend with age.A wide spread in salary exists at almost every age, suggesting other factors also influence salary beyond age.
+- **Insight:** Salary tends to increase with age, with a similar gender pattern seen before: Male employees generally earn more across age groups.Females and others earn less on average but follow the upward trend with age. A wide spread in salary exists at almost every age, suggesting other factors also influence salary beyond age.
   ![image](https://github.com/user-attachments/assets/e6821e33-7307-42f2-9854-4fbe9390866f)
 
 
