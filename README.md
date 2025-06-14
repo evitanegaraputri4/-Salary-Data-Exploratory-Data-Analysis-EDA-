@@ -3,6 +3,23 @@
 ## Project Overview
 This project presents an exploratory data analysis (EDA) of a salary dataset to uncover key insights about workforce demographics, salary distributions, and factors affecting employee compensation. The dataset includes attributes such as Age, Gender, Education Level, Job Title, Years of Experience, and Salary. The main objective is to clean, analyze, and visualize the dataset to answer important business questions and highlight relationships between variables that influence salaries.
 
+## Data Metadata
+
+- **Number of Rows:** 200  
+- **Number of Columns:** 6
+
+### Columns Description:
+
+| Column Name         | Description                                           |
+|---------------------|-------------------------------------------------------|
+| Age                 | Age of the employee (years)                            |
+| Gender              | Gender of the employee (Male, Female, Other)          |
+| Education Level     | Highest education attained (e.g., Bachelor's, Master's, PhD, High School) |
+| Job Title           | Employee's job role/title                              |
+| Years of Experience | Total years of professional experience                |
+| Salary              | Annual salary in USD                                   |
+
+
 ---
 
 ## Tools and Libraries
